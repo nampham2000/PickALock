@@ -18,10 +18,7 @@
         "__id__": 2
       },
       {
-        "__id__": 84
-      },
-      {
-        "__id__": 78
+        "__id__": 82
       },
       {
         "__id__": 65
@@ -65,7 +62,7 @@
     },
     "autoReleaseAssets": false,
     "_globals": {
-      "__id__": 86
+      "__id__": 84
     },
     "_id": "0f7f0d55-7a19-4b55-b35b-198c77efe55e"
   },
@@ -117,20 +114,20 @@
     "_active": true,
     "_components": [
       {
+        "__id__": 79
+      },
+      {
+        "__id__": 80
+      },
+      {
         "__id__": 81
-      },
-      {
-        "__id__": 82
-      },
-      {
-        "__id__": 83
       }
     ],
     "_prefab": null,
     "_lpos": {
       "__type__": "cc.Vec3",
       "x": 300,
-      "y": 480.00000000000006,
+      "y": 479.99999999999994,
       "z": 0
     },
     "_lrot": {
@@ -2043,7 +2040,7 @@
     "_active": true,
     "_components": [
       {
-        "__id__": 80
+        "__id__": 78
       }
     ],
     "_prefab": null,
@@ -2096,7 +2093,7 @@
         "__id__": 63
       },
       {
-        "__id__": 79
+        "__id__": 77
       }
     ],
     "_prefab": null,
@@ -2323,9 +2320,6 @@
     },
     "AudioController": {
       "__id__": 58
-    },
-    "gameCenter": {
-      "__id__": 77
     },
     "_id": "6fRqRqer5GGKr0nkHpvBN6"
   },
@@ -2682,61 +2676,6 @@
     "customEventData": ""
   },
   {
-    "__type__": "f8bd1vmKqhJ87mavGVMdcEW",
-    "_name": "",
-    "_objFlags": 0,
-    "node": {
-      "__id__": 78
-    },
-    "_enabled": true,
-    "__prefab": null,
-    "_id": "80daRl/qpBCrfax5Nfy7Jc"
-  },
-  {
-    "__type__": "cc.Node",
-    "_name": "@GameCenterController",
-    "_objFlags": 0,
-    "_parent": {
-      "__id__": 1
-    },
-    "_children": [],
-    "_active": true,
-    "_components": [
-      {
-        "__id__": 77
-      }
-    ],
-    "_prefab": null,
-    "_lpos": {
-      "__type__": "cc.Vec3",
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "_lrot": {
-      "__type__": "cc.Quat",
-      "x": 0,
-      "y": 0,
-      "z": 0,
-      "w": 1
-    },
-    "_lscale": {
-      "__type__": "cc.Vec3",
-      "x": 1,
-      "y": 1,
-      "z": 1
-    },
-    "_mobility": 0,
-    "_layer": 1073741824,
-    "_euler": {
-      "__type__": "cc.Vec3",
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "_id": "5do6vX8NxCxbzSgSGqXboN"
-  },
-  {
     "__type__": "cc.Widget",
     "_name": "",
     "_objFlags": 0,
@@ -2835,8 +2774,8 @@
     "_target": null,
     "_left": -2.842170943040401e-14,
     "_right": -2.842170943040401e-14,
-    "_top": 5.684341886080802e-14,
-    "_bottom": 5.684341886080802e-14,
+    "_top": -5.684341886080802e-14,
+    "_bottom": -5.684341886080802e-14,
     "_horizontalCenter": 0,
     "_verticalCenter": 0,
     "_isAbsLeft": true,
@@ -2862,7 +2801,7 @@
     "_active": true,
     "_components": [
       {
-        "__id__": 85
+        "__id__": 83
       }
     ],
     "_prefab": null,
@@ -2900,7 +2839,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 84
+      "__id__": 82
     },
     "_enabled": true,
     "__prefab": null,
@@ -2919,22 +2858,22 @@
   {
     "__type__": "cc.SceneGlobals",
     "ambient": {
-      "__id__": 87
+      "__id__": 85
     },
     "shadows": {
-      "__id__": 88
+      "__id__": 86
     },
     "_skybox": {
-      "__id__": 89
+      "__id__": 87
     },
     "fog": {
-      "__id__": 90
+      "__id__": 88
     },
     "octree": {
-      "__id__": 91
+      "__id__": 89
     },
     "lightProbeInfo": {
-      "__id__": 92
+      "__id__": 90
     },
     "bakedWithStationaryMainLight": false,
     "bakedWithHighpLightmap": false

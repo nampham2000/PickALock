@@ -1,15 +1,13 @@
 import { _decorator, Button, Color, Component, director, find, Node, Sprite } from 'cc';
 import { Constants } from '../Data/Constants';
 const { ccclass, property } = _decorator;
-import { GameCenterController } from '../GameCenterController/GameCenterController';
+
 
 @ccclass('EntryController')
 export class EntryController extends Component {
     @property({type: Button})
     private btnPlay: Button;
 
-    @property({type:GameCenterController})
-    private gameCenter:GameCenterController;
 
     protected start(): void {
         this.btnPlay.node.on(Node.EventType.MOUSE_ENTER, () => {
