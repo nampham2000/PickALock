@@ -1,0 +1,12 @@
+{
+  "name": "PockALock",
+  "uuid": "6fdd2f33-e160-42af-b4c3-ccce83c51f32",
+  "creator": {
+    "version": "3.7.2"
+  },
+  "dependencies": {
+    "@onechaintech/gamesdk": "^0.0.31",
+    "@onechaintech/gamesdk-beta": "^0.0.18",
+    "@onechaintech/gamesdk-dev": "^0.0.32"
+  }
+}
